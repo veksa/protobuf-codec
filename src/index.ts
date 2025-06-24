@@ -1,0 +1,1 @@
+export {createProtobufCodec} from './createProtobufCodec';

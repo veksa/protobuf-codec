@@ -1,0 +1,91 @@
+package test;
+
+message Double {
+  required double x = 1;
+}
+
+message Float {
+  required float x = 1;
+}
+
+message Int32 {
+  required int32 x = 1;
+}
+
+message Int64 {
+  required int64 x = 1;
+}
+
+message UInt32 {
+  required uint32 x = 1;
+}
+
+message UInt64 {
+  required uint64 x = 1;
+}
+
+message SInt32 {
+  required sint32 x = 1;
+}
+
+message SInt64 {
+  required sint64 x = 1;
+}
+
+message Fixed32 {
+  required fixed32 x = 1;
+}
+
+message Fixed64 {
+  required fixed64 x = 1;
+}
+
+message SFixed32 {
+  required sfixed32 x = 1;
+}
+
+message SFixed64 {
+  required sfixed64 x = 1;
+}
+
+message Bool {
+  required bool x = 1;
+}
+
+message String {
+  required string x = 1;
+}
+
+message Bytes {
+  required bytes x = 1;
+}
+
+message Function {
+  required Int32 value = 1;
+}
+
+message Repeated {
+  repeated int32 value = 1;
+}
+
+message RepeatedFunction {
+  repeated Int32 value = 1;
+}
+
+message RepeatedPacked {
+  repeated int32 value = 1 [packed = true];
+}
+
+message MapField {
+  map<string, int32> value = 1;
+}
+
+message MapFunction {
+  map<string, Int32> value = 1;
+}
+
+message ComplexBytes {
+  required uint32 payloadType = 1;
+  optional bytes payload = 2;
+  optional string clientMsgId = 3;
+}
