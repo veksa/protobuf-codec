@@ -1,6 +1,6 @@
 {
   "name": "@veksa/protobuf-codec",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Protocol Buffers codec implementation for @veksa/transport messaging layer",
   "homepage": "https://github.com/veksa/protobuf-codec",
   "packageManager": "yarn@4.9.2",
